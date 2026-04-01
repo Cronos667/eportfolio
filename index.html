@@ -1,0 +1,439 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jonathan Barani - E-Portfolio</title>
+  <meta
+    name="description"
+    content="Jonathan Barani's e-portfolio: academic journey, business skills, digital execution and Web3-focused ambition."
+  />
+  <meta name="theme-color" content="#071120" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Syne:wght@500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <div class="page-noise" aria-hidden="true"></div>
+  <div class="page-glow page-glow-1" aria-hidden="true"></div>
+  <div class="page-glow page-glow-2" aria-hidden="true"></div>
+  <canvas id="bgCanvas" aria-hidden="true"></canvas>
+  <div id="cursor" aria-hidden="true"></div>
+
+  <header class="nav">
+    <a class="brand" href="#hero" aria-label="Back to top">
+      <span class="brand-mark">JB</span>
+      <span class="brand-copy">
+        <strong>Jonathan Barani</strong>
+        <small>E-Portfolio</small>
+      </span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="#knowledge">Journey</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#vision">Vision</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section class="hero" id="hero">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span></span>Academic portfolio / business x digital</p>
+        <h1>From classroom foundations to <span>real digital momentum.</span></h1>
+        <p class="hero-lead">
+          I am Jonathan Barani, a business-oriented builder exploring strategy, finance,
+          marketing and Web3 execution. This landing page distills the mindset behind my
+          courses, projects and ambitions into one strong first impression.
+        </p>
+
+        <div class="hero-meta">
+          <article class="meta-block">
+            <strong>UCLouvain</strong>
+            <span>Analytical rigor and strategic frameworks.</span>
+          </article>
+          <article class="meta-block">
+            <strong>EPHEC</strong>
+            <span>Digital business, marketing and operational thinking.</span>
+          </article>
+          <article class="meta-block">
+            <strong>Founder mindset</strong>
+            <span>Execution, storytelling and community leadership.</span>
+          </article>
+        </div>
+
+        <p class="hero-rotator">Currently focused on <span id="typed"></span></p>
+
+        <div class="cta-row">
+          <button class="cta magnetic" id="ctaExplore">
+            Explore the portfolio <i class="fa-solid fa-arrow-down-long"></i>
+          </button>
+          <a class="ghost magnetic" href="#contact">
+            Get in touch <i class="fa-solid fa-paper-plane"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-stage reveal">
+        <div class="stage-shell" data-tilt>
+          <div class="stage-orbit orbit-one"></div>
+          <div class="stage-orbit orbit-two"></div>
+          <div class="stage-orbit orbit-three"></div>
+          <div class="hero-beam"></div>
+
+          <article class="stage-card primary">
+            <p class="label">Positioning</p>
+            <h2>Business clarity, digital execution, human connection.</h2>
+            <p>
+              I like building bridges between structured thinking and internet-native growth.
+              The result is a profile designed to understand, explain and activate ideas.
+            </p>
+            <ul class="stage-tags">
+              <li>Strategy</li>
+              <li>Finance</li>
+              <li>Marketing</li>
+              <li>Web3</li>
+              <li>Community</li>
+            </ul>
+          </article>
+
+          <article class="stage-card floating floating-a">
+            <p class="mini-label">Focus</p>
+            <strong>Growth systems</strong>
+            <span>SEO, virality, storytelling and acquisition.</span>
+          </article>
+
+          <article class="stage-card floating floating-b">
+            <p class="mini-label">Edge</p>
+            <strong>Founder energy</strong>
+            <span>Pitching, positioning and go-to-market reflexes.</span>
+          </article>
+
+          <article class="stage-card floating floating-c">
+            <p class="mini-label">Direction</p>
+            <strong>Layer 2 and adoption</strong>
+            <span>Scaling technology into something people can actually use.</span>
+          </article>
+        </div>
+      </div>
+
+      <a class="scroll-indicator" href="#knowledge">
+        <span></span>
+        Scroll to discover
+      </a>
+    </section>
+
+    <section class="highlight-band reveal" aria-label="Highlights">
+      <article class="highlight-chip">
+        <span>Academic foundation</span>
+        <strong>Strategy, statistics, business models</strong>
+      </article>
+      <article class="highlight-chip">
+        <span>Execution layer</span>
+        <strong>HTML, CSS, JS, PHP, ERP and mobile tools</strong>
+      </article>
+      <article class="highlight-chip">
+        <span>Human factor</span>
+        <strong>Leadership, trust-building and storytelling</strong>
+      </article>
+    </section>
+
+    <section id="knowledge" class="panel reveal" aria-labelledby="knowledge-title">
+      <div class="section-head">
+        <p class="section-kicker">Journey</p>
+        <h2 id="knowledge-title">A profile shaped by school, systems and hands-on ambition.</h2>
+        <p>
+          The idea is simple: combine academic structure with real-world execution. My
+          coursework built the frameworks, and entrepreneurship pushed me to test them in
+          motion.
+        </p>
+      </div>
+
+      <div class="journey-grid">
+        <article class="info-card tilt-card">
+          <span class="card-index">01</span>
+          <h3>UCLouvain - Bridging Program</h3>
+          <p>A stronger analytical base to think with precision before acting.</p>
+          <ul>
+            <li>Strategic management</li>
+            <li>Quantitative methods</li>
+            <li>Statistics and probability</li>
+          </ul>
+        </article>
+
+        <article class="info-card tilt-card">
+          <span class="card-index">02</span>
+          <h3>EPHEC - Bachelor</h3>
+          <p>A practical business toolkit centered on digital environments and operational logic.</p>
+          <ul>
+            <li>Supply chain and process thinking</li>
+            <li>Digital marketing and acquisition</li>
+            <li>Digital business models such as SaaS and marketplaces</li>
+            <li>Legal frameworks including GDPR</li>
+          </ul>
+        </article>
+
+        <aside class="manifesto-card tilt-card">
+          <p class="manifesto-kicker">What ties it together</p>
+          <h3>Turning knowledge into momentum is the real objective.</h3>
+          <p>
+            I am most useful when I can connect ideas, communicate them clearly and move
+            them toward execution with the right narrative.
+          </p>
+          <div class="manifesto-metrics">
+            <div>
+              <strong>Strategic thinking</strong>
+              <span>Understanding markets, constraints and positioning.</span>
+            </div>
+            <div>
+              <strong>Digital literacy</strong>
+              <span>Using tools, interfaces and systems to make ideas tangible.</span>
+            </div>
+            <div>
+              <strong>Community instinct</strong>
+              <span>Creating trust, energy and attention around a project.</span>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="skills" class="panel reveal" aria-labelledby="skills-title">
+      <div class="section-head">
+        <p class="section-kicker">Skills</p>
+        <h2 id="skills-title">A stack that mixes technical tools, business logic and communication.</h2>
+        <p>
+          Not just a list of buzzwords. Each area below reflects a different layer of how I
+          approach problems and opportunities.
+        </p>
+      </div>
+
+      <div class="expertise-grid">
+        <article class="skill-card tilt-card">
+          <div class="skill-icon"><i class="fa-solid fa-code"></i></div>
+          <h3>Web and product tools</h3>
+          <p>
+            The technical side that helps me prototype, understand interfaces and speak the
+            language of builders.
+          </p>
+          <ul class="feature-list">
+            <li>HTML, CSS, JavaScript and PHP</li>
+            <li>ERP ecosystems like Odoo and SAP</li>
+            <li>Mobile app exposure with Ionic</li>
+          </ul>
+        </article>
+
+        <article class="skill-card tilt-card">
+          <div class="skill-icon"><i class="fa-solid fa-chart-line"></i></div>
+          <h3>Finance and strategy</h3>
+          <p>
+            The frameworks I use to evaluate projects, opportunities and long-term
+            sustainability.
+          </p>
+          <ul class="feature-list">
+            <li>NPV, IRR and WACC</li>
+            <li>Financial statement analysis</li>
+            <li>Tokenomics and strategic positioning</li>
+          </ul>
+        </article>
+
+        <article class="skill-card tilt-card">
+          <div class="skill-icon"><i class="fa-solid fa-bullhorn"></i></div>
+          <h3>Marketing and growth</h3>
+          <p>
+            Where visibility meets persuasion, with a strong interest in momentum and internet
+            culture.
+          </p>
+          <ul class="feature-list">
+            <li>Google Ads, SEO and SEA</li>
+            <li>Content creation and distribution</li>
+            <li>Virality mechanics and audience capture</li>
+          </ul>
+        </article>
+
+        <article class="skill-card tilt-card">
+          <div class="skill-icon"><i class="fa-solid fa-people-group"></i></div>
+          <h3>Leadership and soft skills</h3>
+          <p>
+            The human side of execution: helping teams move, stay calm and align around a
+            direction.
+          </p>
+          <ul class="feature-list">
+            <li>Leadership and adaptability</li>
+            <li>Crisis management and trust-building</li>
+            <li>Storytelling and communication</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="experience" class="panel reveal" aria-labelledby="experience-title">
+      <div class="section-head">
+        <p class="section-kicker">Experience</p>
+        <h2 id="experience-title">Experiments, leadership and field-tested lessons.</h2>
+        <p>
+          Beyond classes, the most valuable growth came from situations where strategy had to
+          meet people, attention and execution.
+        </p>
+      </div>
+
+      <div class="timeline">
+        <article class="timeline-item">
+          <div class="timeline-dot" aria-hidden="true"><i class="fa-solid fa-rocket"></i></div>
+          <div class="timeline-card tilt-card">
+            <p class="timeline-meta">Founder / CEO</p>
+            <h3>Building narratives, partnerships and go-to-market direction.</h3>
+            <p>
+              Pitch decks, valuation logic, fundraising preparation, branding and partnerships
+              all demanded a sharper understanding of how to make an idea feel credible and
+              exciting.
+            </p>
+            <a
+              class="timeline-link magnetic"
+              href="https://www.youtube.com/watch?v=XT9TEYuymK8"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Watch the presentation <i class="fa-brands fa-youtube"></i>
+            </a>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-dot" aria-hidden="true"><i class="fa-solid fa-comments"></i></div>
+          <div class="timeline-card tilt-card">
+            <p class="timeline-meta">Community Manager</p>
+            <h3>Learning how digital communities actually move.</h3>
+            <p>
+              Growth on X, Discord and Telegram is never just about posting. It is about
+              understanding energy, trust, culture, gamification and what keeps people engaged
+              over time.
+            </p>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-dot" aria-hidden="true"><i class="fa-solid fa-lightbulb"></i></div>
+          <div class="timeline-card tilt-card">
+            <p class="timeline-meta">Core takeaway</p>
+            <h3>Ideas matter more when they are understandable and shareable.</h3>
+            <p>
+              That is the thread I want to keep developing: turning technical or strategic
+              complexity into something clear, desirable and actionable.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="vision" class="panel reveal" aria-labelledby="vision-title">
+      <div class="section-head">
+        <p class="section-kicker">Vision</p>
+        <h2 id="vision-title">The long-term direction is to connect innovation with adoption.</h2>
+        <p>
+          I am especially interested in environments where technology still needs translators,
+          educators and builders who can create momentum around it.
+        </p>
+      </div>
+
+      <div class="vision-layout">
+        <article class="vision-panel tilt-card">
+          <p class="vision-label">North star</p>
+          <h3>Become a Web3 entrepreneur with a strong execution layer.</h3>
+          <p>
+            I want to build scalable projects that combine infrastructure, user understanding
+            and strong digital positioning. The goal is not innovation for its own sake, but
+            innovation that people can follow.
+          </p>
+          <ul class="vision-list">
+            <li>Specialize in Layer 2 infrastructure and scalability.</li>
+            <li>Bridge technical innovation with clear storytelling.</li>
+            <li>Design projects that feel both credible and accessible.</li>
+          </ul>
+        </article>
+
+        <div class="vision-stack">
+          <article class="vision-note tilt-card">
+            <p class="vision-label">How I want to work</p>
+            <h3>Structured, curious and highly adaptable.</h3>
+            <p>
+              I enjoy environments where I can keep learning while contributing to strategy,
+              growth and product thinking at the same time.
+            </p>
+          </article>
+
+          <article class="vision-note tilt-card">
+            <p class="vision-label">Why this page exists</p>
+            <h3>A landing page that feels more alive than a standard CV.</h3>
+            <p>
+              It is meant to show identity, ambition and direction in a format that is
+              immediate, visual and memorable.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="panel reveal" aria-labelledby="contact-title">
+      <div class="contact-panel tilt-card">
+        <div>
+          <p class="section-kicker">Contact</p>
+          <h2 id="contact-title">If the profile resonates, let's continue the conversation.</h2>
+          <p>
+            Courses, collaborations, ideas, entrepreneurship or digital strategy: I am always
+            interested in thoughtful exchanges and meaningful opportunities.
+          </p>
+        </div>
+
+        <div class="contact-actions">
+          <a class="cta magnetic" href="mailto:baranijonathan@gmai.com">
+            Send an email <i class="fa-solid fa-envelope"></i>
+          </a>
+          <a
+            class="ghost magnetic"
+            href="https://www.linkedin.com/in/jonathan-barani/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LinkedIn <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a
+            class="social-pill magnetic"
+            href="https://x.com/Cronos667"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            X / Twitter <i class="fa-brands fa-x-twitter"></i>
+          </a>
+          <a
+            class="social-pill magnetic"
+            href="https://www.youtube.com/watch?v=XT9TEYuymK8"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Video pitch <i class="fa-brands fa-youtube"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Jonathan Barani. Designed as a lightweight premium landing page for GitHub Pages.</p>
+  </footer>
+
+  <script src="script.js?v=3" defer></script>
+</body>
+</html>
+
