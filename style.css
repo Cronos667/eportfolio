@@ -587,7 +587,6 @@ main {
 
 .skills-grid {
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  align-items: start;
 }
 
 .credentials-grid,
@@ -596,7 +595,7 @@ main {
 }
 
 .credentials-grid {
-  margin-top: 1.5rem;
+  margin-top: 2rem;
 }
 
 .skill-panel .pill-list {
