@@ -220,6 +220,7 @@ main {
 .signal-band,
 .project-layout,
 .split-grid,
+.skills-layout,
 .skills-grid,
 .credentials-grid,
 .contact-card {
@@ -594,8 +595,8 @@ main {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
-.credentials-grid {
-  margin-top: 2rem;
+.skills-layout {
+  gap: 2rem;
 }
 
 .skill-panel .pill-list {
