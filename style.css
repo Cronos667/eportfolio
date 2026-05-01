@@ -595,6 +595,10 @@ main {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
+.credentials-grid {
+  margin-top: 1.5rem;
+}
+
 .skill-panel .pill-list {
   margin-top: 1.1rem;
 }
